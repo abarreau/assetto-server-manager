@@ -1,4 +1,6 @@
-module github.com/JustaPenguin/assetto-server-manager
+module github.com/abarreau/assetto-server-manager
+
+replace github.com/etcd-io/bbolt => go.etcd.io/bbolt v1.3.6
 
 require (
 	4d63.com/embedfiles v1.0.0 // indirect

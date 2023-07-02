@@ -44,7 +44,7 @@ we want people to see an accurate representation of the awesome tool we know ser
 - The Emperor Servers Team
 
 Email: support@emperorservers.com
-GitHub: https://github.com/JustaPenguin/assetto-server-manager
+GitHub: https://github.com/abarreau/assetto-server-manager
 
 `
 

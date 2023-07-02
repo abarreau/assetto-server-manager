@@ -127,7 +127,7 @@ Added:
   - You can also set a minimum number of Driver Swaps that each car must make.
   - Driver Swap result files show which lap was completed by which driver (using the AutoFill Entrant list where possible to put names in)
   - Driver Swaps require compatible tracks. A compatible track has the timing line before or after all of the pitboxes. 
-    You can follow this guide (written by @mike855 - thanks!) to modify a track to be compatible: https://github.com/JustaPenguin/assetto-server-manager/wiki/Driver-swap-track-editing
+    You can follow this guide (written by @mike855 - thanks!) to modify a track to be compatible: https://github.com/abarreau/assetto-server-manager/wiki/Driver-swap-track-editing
 * Premium users can now specify a spectator car slot in Championships and Race Weekends. The spectator car will be added to the back of the grid and excluded from Championship Points and Race Weekend grid decisions.
 * A landing intro for hosted servers that points users in the right direction.
 * You can now broadcast a 3-2-1-GO countdown to all drivers from the Live Timings Admin Panel.
@@ -290,7 +290,7 @@ This release adds support for Assetto Corsa Skill Ratings (ACSR). ACSR is a new 
 When you set up a Championship in Server Manager, you will be given the option to "Export to Assetto Corsa Skill Ratings". This publishes your Championship to the ACSR Championships List page, so that drivers can find your Championship and sign up to it!
 
 * You can view more about ACSR here: https://acsr.assettocorsaservers.com
-* For help configuring ACSR, check out our wiki: https://github.com/JustaPenguin/assetto-server-manager/wiki/ACSR-Configuration
+* For help configuring ACSR, check out our wiki: https://github.com/abarreau/assetto-server-manager/wiki/ACSR-Configuration
 
 ACSR requires Server Manager Premium. You can purchase Server Manager Premium by following the instructions in the free version of Server Manager.
 
@@ -648,7 +648,7 @@ Added:
   acting maliciously or just making mistakes, for example deleting a whole Championship an hour before it was 
   meant to start (we're looking at you, Greg).
 * Added a link to our new Wiki in the footer! If you want to contribute tips and tricks for Server Manager, the wiki is the place!
-  You can access the wiki here: https://github.com/JustaPenguin/assetto-server-manager/wiki
+  You can access the wiki here: https://github.com/abarreau/assetto-server-manager/wiki
 * The Server Manager javascript is now minified, which should make the pages load quicker!
 * Results tables now use the same time format as Live Timings (e.g. 01:23.234 instead of 1m23.234s).
 * You can now split the JSON store into two separate directories: private and shared. This is useful for multiserver setups,

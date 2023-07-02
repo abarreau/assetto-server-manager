@@ -17,7 +17,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/JustaPenguin/assetto-server-manager/cmd/server-manager/static"
+	"github.com/abarreau/assetto-server-manager/cmd/server-manager/static"
 
 	"github.com/cj123/ini"
 	"github.com/dimchansky/utfbom"
