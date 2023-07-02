@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/JustaPenguin/assetto-server-manager/pkg/udp"
-	"github.com/JustaPenguin/assetto-server-manager/pkg/when"
+	"github.com/abarreau/assetto-server-manager/pkg/udp"
+	"github.com/abarreau/assetto-server-manager/pkg/when"
 	"github.com/cj123/caldav-go/icalendar"
 	"github.com/cj123/caldav-go/icalendar/components"
 	"github.com/go-chi/chi"

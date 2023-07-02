@@ -10,11 +10,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/mitchellh/go-wordwrap"
 	"github.com/sirupsen/logrus"
 	lua "github.com/yuin/gopher-lua"
 
-	"github.com/JustaPenguin/assetto-server-manager/pkg/udp"
+	"github.com/abarreau/assetto-server-manager/pkg/udp"
 )
 
 type RaceControl struct {

@@ -8,7 +8,7 @@ import (
 	"sort"
 	"time"
 
-	servermanager "github.com/JustaPenguin/assetto-server-manager"
+	servermanager "github.com/abarreau/assetto-server-manager"
 
 	"github.com/sirupsen/logrus"
 )

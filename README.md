@@ -28,7 +28,7 @@ A web interface to manage an Assetto Corsa Server.
 
 ### Manual
 
-1. Download the latest release from the [releases page](https://github.com/JustaPenguin/assetto-server-manager/releases)
+1. Download the latest release from the [releases page](https://github.com/abarreau/assetto-server-manager/releases)
 2. Extract the release
 3. Edit the config.yml to suit your preferences
 4. Either:
@@ -48,7 +48,7 @@ See [Manual](#Manual) to set up server manager without Docker.
 **Note**: if you are using a directory volume for the server install (as is shown below), be sure to make 
 the directory before running `docker-compose up` - otherwise its permissions may be incorrect. 
 
-You will need a [config.yml](https://github.com/JustaPenguin/assetto-server-manager/blob/master/cmd/server-manager/config.example.yml) file to mount into the docker container.
+You will need a [config.yml](https://github.com/abarreau/assetto-server-manager/blob/master/cmd/server-manager/config.example.yml) file to mount into the docker container.
 
 An example docker-compose.yml looks like this:
 
@@ -88,7 +88,7 @@ Also, we recommend installing Sol locally and uploading your Sol weather files t
 Follow the steps below to update Server Manager:
 
 1. Back up your current Server Manager database and config.yml.
-2. Download the [latest version of Server Manager](https://github.com/JustaPenguin/assetto-server-manager/releases)
+2. Download the [latest version of Server Manager](https://github.com/abarreau/assetto-server-manager/releases)
 3. Extract the zip file.
 4. Open the Changelog, read the entries between your current version and the new version. 
    There may be configuration changes that you need to make!
@@ -106,9 +106,9 @@ _This is written with Linux in mind. Note that for other platforms this general 
 
     ```
      # clone the repository (and dependencies) to your $GOPATH
-     go get -u github.com/JustaPenguin/assetto-server-manager/...
+     go get -u github.com/abarreau/assetto-server-manager/...
      # move to the repository root
-     cd $GOPATH/src/github.com/JustaPenguin/assetto-server-manager
+     cd $GOPATH/src/github.com/abarreau/assetto-server-manager
     ```
 
 4. Set up the config.yml file in assetto-server-manager/cmd/server-manager (best to copy config.example.yml 
@@ -140,4 +140,4 @@ inspiration and reference on understanding the AC configuration files
 
 ## Screenshots
 
-Check out the [screenshots folder](https://github.com/JustaPenguin/assetto-server-manager/tree/master/misc/screenshots)!
+Check out the [screenshots folder](https://github.com/abarreau/assetto-server-manager/tree/master/misc/screenshots)!

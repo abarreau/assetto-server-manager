@@ -1,4 +1,5 @@
-// this file was automatically generated using struct2ts github.com/JustaPenguin/assetto-server-manager.RaceControl
+// this file was automatically generated using struct2ts github.com/abarreau/assetto-server-manager.RaceControl
+//go:build ignore
 // +build ignore
 
 package main
@@ -9,8 +10,8 @@ import (
 	"log"
 	"os"
 
-	servermanager "github.com/JustaPenguin/assetto-server-manager"
 	"github.com/OneOfOne/struct2ts"
+	servermanager "github.com/abarreau/assetto-server-manager"
 )
 
 func main() {
