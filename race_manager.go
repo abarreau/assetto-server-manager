@@ -17,10 +17,10 @@ import (
 	"github.com/JustaPenguin/assetto-server-manager/pkg/when"
 
 	"4d63.com/tz"
-	"github.com/etcd-io/bbolt"
 	"github.com/go-chi/chi"
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
+	"go.etcd.io/bbolt"
 )
 
 var ErrCustomRaceNotFound = errors.New("servermanager: custom race not found")
