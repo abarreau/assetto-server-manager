@@ -9,9 +9,8 @@ import (
 	"time"
 
 	"github.com/cj123/sessions"
-	"github.com/etcd-io/bbolt"
 	"github.com/sirupsen/logrus"
-	"gopkg.in/yaml.v2"
+	"go.etcd.io/bbolt"
 )
 
 var config *Configuration
